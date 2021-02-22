@@ -8,10 +8,11 @@
     align-items: center;
     height: 340px;
     z-index: 3;
+    color: #5599bb;
     &__divider {
         width: 2px;
         height: 70px;
-        background-color: #000;
+        background-color: #5599bb;
     }
     &__text {
         height: 150px;
@@ -21,5 +22,8 @@
             display: block;
             width: 150px;
         }
+    }
+    &__whatsapp {
+        transform: rotate(90deg);
     }
 }
