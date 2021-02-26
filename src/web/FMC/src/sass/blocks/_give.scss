@@ -1,0 +1,137 @@
+.give {
+	min-height: 890px;
+	background: url('../img/bg3.png') center (center/cover) no-repeat;
+	padding: 70px 0 60px 0;
+	&__header {
+		text-align: center;
+		color: #fff;
+		font-size: 30px;
+		font-weight: 700;
+	}
+	&__items {
+		list-style-type: none;
+		display: flex;
+		margin: 0 auto;
+		padding: 0;
+		width: 778px;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__item {
+		padding-right: 21px;
+		padding-top: 12px;
+		border-right: 1px solid #929393;
+		height: 49px;
+		align-items: center;
+		&:nth-child(6) {
+			padding-right: 0;
+			border-right: none;
+		}
+		a {
+			color: #fff;
+			font-size: 14px;
+			font-weight: 500;
+			&:hover {
+				color: #00C2F0;
+				text-decoration: none;
+			}
+		}
+	}
+	&__wrapper {
+		margin: 0 auto;
+		margin-top: 26px;
+		padding: 7px 0 7px 0;
+		width: 843px;
+		height: 64px;
+		border: 2px solid #FFFFFF;
+		border-radius: 4px;
+	}
+	.sim-slider {
+		max-width: 1000px;
+		min-width: 320px;
+		margin: 20px auto;
+		padding: 30px 50px;
+	}
+
+	/* General styles */
+	.sim-slider {
+	  position: relative;
+	  height: 560px;
+	}
+
+	.sim-slider-list {
+	  margin: 0;
+	  padding: 0;
+	  list-style-type: none;
+	  position: relative;
+	}
+
+	.sim-slider-element {
+	  width: 100%;
+	  transition: opacity 1s ease-in;
+	  opacity: 0;
+	  position: absolute;
+	  z-index: 2;
+	  left: 0;
+	  top: 0;
+	  display: block;
+	  img {
+	  	width: 900px;
+	  	height: 520px;
+	  }
+	}
+
+	/* Navigation item styles */
+	div.sim-slider-arrow-left,
+	div.sim-slider-arrow-right {
+	  width: 22px;
+	  height: 110px;
+	  position: absolute;
+	  cursor: pointer;
+	  opacity: 0.6;
+	  z-index: 4;
+	}
+
+	div.sim-slider-arrow-left {
+	  left: 10px;
+	  top: 40%;
+	  display: block;
+	  background: url("../../icons/arrow-left.png") no-repeat;
+	}
+
+	div.sim-slider-arrow-right {
+	  right: 10px;
+	  top: 40%;
+	  display: block;
+	  background: url("../../icons/arrow-right.png") no-repeat;
+	}
+
+	div.sim-slider-arrow-left:hover {
+	  opacity: 1.0;
+	}
+
+	div.sim-slider-arrow-right:hover {
+	  opacity: 1.0;
+	}
+
+	div.sim-slider-dots {
+	  width: 100%;
+	  height: auto;
+	  position: absolute;
+	  left: 0;
+	  bottom: 0;
+	  z-index: 3;
+	  text-align: center;
+	}
+
+	span.sim-dot {
+	  display: none;
+	  width: 10px;
+	  height: 10px;
+	  margin: 5px 7px;
+	  padding: 0;
+	  background-color: #BBB;
+	  border-radius: 5px;
+	  cursor: pointer;
+	}
+}

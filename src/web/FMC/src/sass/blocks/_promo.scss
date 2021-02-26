@@ -1,0 +1,26 @@
+.promo {
+	min-height: 700px;
+	background: url('../img/bg1.png') center (center/cover) no-repeat;
+	padding-top: 39px;
+	&__content {
+		position: relative;
+		min-height: 600px;
+	}
+	&__icon {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
+	&__header {
+		margin-top: 121px;
+		color: #fff;
+		font-weight: 800;
+		font-size: 42px;
+	}
+	&__subheader {
+		color: #fff;
+		font-size: 24px;
+		font-weight: 300;
+		width: 428px;
+	}
+}

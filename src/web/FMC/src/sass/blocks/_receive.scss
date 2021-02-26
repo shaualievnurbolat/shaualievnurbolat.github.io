@@ -1,0 +1,16 @@
+.receive {
+	padding: 80px 0 73px 0;
+	&__icon {
+		display: block;
+		margin: 0 auto;
+	}
+	&__header {
+		display: block;
+		margin: 0 auto;
+		margin-top: 64px;
+		font-size: 30px;
+		font-weight: 700;
+		color: #393939;
+		text-align: center;
+	}
+}

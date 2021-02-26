@@ -1,0 +1,36 @@
+.course {
+	padding: 20px 0 15px 0;
+	&__wrapper {
+		display: grid;
+		grid-template-columns: repeat(5, 229px);
+		justify-content: space-between;
+	}
+	&__item {
+		display: flex;
+		img {
+			margin-bottom: auto;
+			margin-right: 10px;
+		}
+	}
+	&__title {
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 10px;
+	}
+	&__phone {
+		font-size: 12px;
+		font-weight: 300;
+		line-height: 10px;
+		color: #242424;
+		&:hover {
+			color: #242424;
+			text-decoration: none;
+		}
+	}
+	&__email {
+		font-size: 12px;
+		font-weight: 300;
+		line-height: 10px;
+		color: #242424;
+	}
+}

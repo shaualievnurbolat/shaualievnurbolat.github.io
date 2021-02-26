@@ -1,0 +1,15 @@
+.button {
+	color: #fff;
+	text-transform: uppercase;
+	width: 242px;
+	height: 60px;
+	background-color: #00C2F0;
+	border: none;
+	border-radius: 5px;
+	margin-top: 40px;
+	&_receive {
+		display: block;
+		margin: 0 auto;
+		margin-top: 24px;
+	}
+}
